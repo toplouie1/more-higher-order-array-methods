@@ -30,6 +30,30 @@ npm test
 
 This will run the test output once.
 
+### Run one file at a time
+
+Since there are several files in this repo, it's recommended that you run _one file at a time_ as you work through them. Like so:
+
+```
+npm test 00
+```
+
+```
+npm test 01
+```
+
+```
+npm test 02
+```
+
+```
+npm test 03
+```
+
+```
+npm test 04
+```
+
 ### Run tests individually
 
 _After choosing a specific file to run,_ you can also specify which test you want to run. Add `.only` after either `test` or `describe` for the specific test you'd like to run.
