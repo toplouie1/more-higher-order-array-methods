@@ -28,7 +28,7 @@ function getPokemonNames(pokemonArr) {}
  * * addCaughtProperty
  * 
  * * Reminder of how to add property to an existing object:
- * * obj = {name: "Deloba", weight: "14 lbs"}    <-- `obj` is the existing object
+ * * let obj = {name: "Deloba", weight: "14 lbs"}    <-- `obj` is the existing object
  * * obj.birthday = "01/10/2013"              <--  set new key/value pair on `obj`
  * 
  * obj now has an added birthday property.
@@ -77,6 +77,12 @@ function addCaughtProperty(pokemonArr) {}
 /**
  *
  *
+ * 
+ * * Reminder of syntax for how to add property to an existing object with VARIABLES:
+ * * let obj = {name: "Deloba", weight: "14 lbs"}    <-- `obj` is the existing object
+ * * let key = age                                   <-- set `key` variable
+ * * let value = 8                                   <-- set `value` variable
+ * * obj[key] = value                                <--  set new key/value pair on `obj` using variables
  * 
  * * addAnyProperty
  * 
