@@ -19,7 +19,7 @@ const ghostPokemonData = require("../data/ghostPokemon_data");
  * ^^^ This is not the complete list of names, but you get the idea ^^^
  *
  */
-function getPokemonNames() {}
+function getPokemonNames(pokemonArr) {}
 
 /**
  *
@@ -29,7 +29,7 @@ function getPokemonNames() {}
  * 
  * * Reminder of how to add property to an existing object:
  * * obj = {name: "Deloba", weight: "14 lbs"}    <-- `obj` is the existing object
- * * obj[birthday] = "01/10/2013"                <-- use bracket notation to set new key/value pair on `obj`
+ * * obj["birthday"] = "01/10/2013"                <-- use bracket notation to set new key/value pair on `obj`
  * 
  * obj now has an added birthday property.
  * console.log(obj)
@@ -72,7 +72,7 @@ function getPokemonNames() {}
   ....                        //For the sake of space, I won't include the rest of them.
  * ]
  */
-function addCaughtProperty() {}
+function addCaughtProperty(pokemonArr) {}
 
 /**
  *
