@@ -21,6 +21,7 @@ let numberArr = [3, 5, 8, 4, 9];
  * > [2, 3, 4]
  *
  * EXAMPLE:
+ * let numberArr = [3, 5, 8, 4, 9];
  * plusOne(numberArr)
  * > [4, 6, 9, 5, 10]
  *
@@ -44,6 +45,7 @@ function plusOne() {}
  * > [2, 4, 6]
  *
  * EXAMPLE:
+ * let numberArr = [3, 5, 8, 4, 9];
  * timesTwo(numberArr)
  * > [6, 10, 16, 8, 18]
  *
@@ -67,6 +69,7 @@ function timesTwo() {}
  * > [1, 3]
  *
  * EXAMPLE:
+ * let numberArr = [3, 5, 8, 4, 9];
  * filterForOdds(numberArr)
  * > [3, 5, 9]
  *
@@ -97,11 +100,14 @@ function filterForOdds() {}
  * filterOddsOrEvens([1, 2, 3], Odd)
  * > [1, 3]
  *
+ *
  * EXAMPLE:
+ * let numberArr = [3, 5, 8, 4, 9];
  * filterOddsOrEvens(numberArr, odd)
  * > [3, 5, 9]
  *
  * EXAMPLE:
+ * let numberArr = [3, 5, 8, 4, 9];
  * filterOddsOrEvens(numberArr, eveN)
  * > [8, 4]
  *
@@ -131,6 +137,7 @@ function filterOddsOrEvens() {}
  * > undefined
  *
  * EXAMPLE:
+ * let numberArr = [3, 5, 8, 4, 9];
  * findTargetNum(numberArr, 9)
  * > 9
  *
