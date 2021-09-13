@@ -29,7 +29,7 @@ function getPokemonNames(pokemonArr) {}
  * 
  * * Reminder of how to add property to an existing object:
  * * obj = {name: "Deloba", weight: "14 lbs"}    <-- `obj` is the existing object
- * * obj["birthday"] = "01/10/2013"                <-- use bracket notation to set new key/value pair on `obj`
+ * * obj.birthday = "01/10/2013"              <--  set new key/value pair on `obj`
  * 
  * obj now has an added birthday property.
  * console.log(obj)
