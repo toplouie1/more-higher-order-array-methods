@@ -4,6 +4,8 @@ const {
   filterNamesByStrength,
 } = require("../src/02-filter");
 
+//hi Greg
+
 describe("filterByType()", () => {
   let pokemon;
   beforeEach(() => {
