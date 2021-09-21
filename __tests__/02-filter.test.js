@@ -62,7 +62,7 @@ describe("filterNamesByType()", () => {
 
   test("should return an array of all pokemon names of the inputted type.", () => {
     const actual = filterNamesByType(pokemon, "water");
-    const expected = ["Squirtle", "Poliwag", "Gyarados", "Cloyster"];
+    const expected = ["Squirtle", "Lapras", "Poliwag", "Gyarados", "Cloyster"];
     expect(actual).toEqual(expected);
   });
 
