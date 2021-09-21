@@ -69,7 +69,13 @@ This will either run the specific `test` or, in the case of adding `.only` to a 
 If you want to manually test out your file, you can do so by running the following command.
 
 ```
-node index.js
+node src/00-warmUp.js
 ```
-
+```
+node src/01-map.js
+```
+```
+node src/02-filter.js
+```
+etc.
 The output will be printed to your terminal.
