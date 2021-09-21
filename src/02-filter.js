@@ -42,7 +42,7 @@ function filterByType() {}
  *
  * EXAMPLE:
  * filterNamesByType(examplePokemonData, 'water')
- *  > [Squirtle, Poliwag, Gyarados, Cloyster]
+ *  > [Squirtle, Lapras, Poliwag, Gyarados, Cloyster]
  */
 function filterNamesByType() {}
 
@@ -64,7 +64,7 @@ function filterNamesByType() {}
  *
  * EXAMPLE:
  * filterNamesByStrength(examplePokemonData, 'ice')
- *  > [Charmander, Bulbasaur, Onix]
+ *  > [Charmander, Onix]
  */
 function filterNamesByStrength() {}
 
