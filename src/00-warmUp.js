@@ -26,7 +26,12 @@ let numberArr = [3, 5, 8, 4, 9];
  * > [4, 6, 9, 5, 10]
  *
  */
-function plusOne() {}
+function plusOne(nums) {
+	let numsAdd = nums.map((el) => {
+		return el + 1;
+	});
+	return numsAdd;
+}
 
 /**
  *
@@ -50,7 +55,12 @@ function plusOne() {}
  * > [6, 10, 16, 8, 18]
  *
  */
-function timesTwo() {}
+function timesTwo(nums) {
+	let numsMultiply = nums.map((el) => {
+		return el * 2;
+	});
+	return numsMultiply;
+}
 
 /**
  *
@@ -74,7 +84,12 @@ function timesTwo() {}
  * > [3, 5, 9]
  *
  */
-function filterForOdds() {}
+function filterForOdds(nums) {
+	let filtered = nums.filter((el) => {
+		return el % 2 === 1;
+	});
+	return filtered;
+}
 
 /**
  *
@@ -112,7 +127,17 @@ function filterForOdds() {}
  * > [8, 4]
  *
  */
-function filterOddsOrEvens() {}
+function filterOddsOrEvens(nums, string) {
+	let input = string.toLowerCase();
+	let filtered = nums.filter((el) => {
+		if (input === "even") {
+			return el % 2 === 0;
+		} else {
+			return el % 2 === 1;
+		}
+	});
+	return filtered;
+}
 
 /**
  *
@@ -142,7 +167,12 @@ function filterOddsOrEvens() {}
  * > 9
  *
  */
-function findTargetNum() {}
+function findTargetNum(nums, targetNum) {
+	let find = nums.find((num) => {
+		return targetNum === num;
+	});
+	return find;
+}
 
 /**
  *
@@ -175,7 +205,17 @@ function findTargetNum() {}
  * > false
  *
  */
-function isEveryElTheSame() {}
+function isEveryElTheSame(num) {
+	let first = num[0];
+	let everySame = num.every((el) => {
+		if (first === el) {
+			return true;
+		} else {
+			return false;
+		}
+	});
+	return everySame;
+}
 
 /**
  *
@@ -204,14 +244,23 @@ function isEveryElTheSame() {}
  * > true
  *
  */
-function areSomeEqualToInput() {}
+function areSomeEqualToInput(nums, value) {
+	let everySome = nums.some((el) => {
+		if (el === value) {
+			return true;
+		} else {
+			return false;
+		}
+	});
+	return everySome;
+}
 
 module.exports = {
-  plusOne,
-  timesTwo,
-  filterForOdds,
-  filterOddsOrEvens,
-  findTargetNum,
-  isEveryElTheSame,
-  areSomeEqualToInput,
+	plusOne,
+	timesTwo,
+	filterForOdds,
+	filterOddsOrEvens,
+	findTargetNum,
+	isEveryElTheSame,
+	areSomeEqualToInput,
 };
